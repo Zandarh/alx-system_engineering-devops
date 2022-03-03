@@ -1,2 +1,2 @@
 #!/bin/bash
-cat lsit | sort | uniq -u
+sort | uniq -u
