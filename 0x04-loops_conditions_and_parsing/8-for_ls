@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script that displays:
+# The content of the current directory
+# In a list format
+
+list=$(ls)
+
+for VAR in $list
+do
+    echo "$VAR" | cut -d "-" -f 2-  # cut the file when - is reached and returns the field 2 downwards
+done
