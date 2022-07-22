@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that kills a previous script process
+
+pgrep -f 7-highlander | xargs kill -SIGKILL
