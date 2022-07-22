@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that displays its pid
+
+ps | pgrep bash | awk '{print $1 }'
