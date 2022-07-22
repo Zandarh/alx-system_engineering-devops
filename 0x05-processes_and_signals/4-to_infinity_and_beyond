@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Bash script that displays To infinity and beyond indefinitely
 
-trap "echo Terminated; exit 130" SIGTERM
+trap "echo" EXIT
 while [ true ]
 do
 	echo "To infinity and beyond"
