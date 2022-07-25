@@ -9,7 +9,7 @@
  * Return: Zero
  */
 
-int infinite_whille(void)
+int infinite_while(void)
 {
 	while(1)
 	{
