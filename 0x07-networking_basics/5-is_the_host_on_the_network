@@ -5,7 +5,8 @@
 # ...if not argument
 # pings the IP 5 times
 
-if [ "$1" ]
+
+if [ $# -ne 0 ]
 then
 	ping -c 5 "$1"
 else
