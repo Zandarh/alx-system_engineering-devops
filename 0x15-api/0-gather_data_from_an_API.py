@@ -26,10 +26,10 @@ if __name__ == "__main__":
     task_len = len(todo.json())
     comp_task = sum([count for attr in todo.json()
                     if attr.get('completed') is True])
-    
+
     print("Employee {} is done with tasks({}/{}):".format(
             user_name, comp_task, task_len))
-    
+
     for attr in todo.json():
         if attr.get('completed') is True:
             print("\t {}".format(attr.get("tittle")))
